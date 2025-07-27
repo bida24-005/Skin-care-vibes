@@ -1,71 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>SkincareVibes</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: 'Roboto', sans-serif; line-height: 1.6; background: #fff; color: #333; }
-    header { background: #f7c7d6; padding: 1.5rem; text-align: center; }
-    header h1 { font-size: 2.5rem; color: #fff; }
-    nav { background: #ffebf0; padding: 0.5rem; text-align: center; }
-    nav a { margin: 0 1rem; color: #e91e63; text-decoration: none; font-weight: bold; }
-    .container { max-width: 1000px; margin: 2rem auto; padding: 1rem; }
-    .post { margin-bottom: 2rem; }
-    .post h2 { color: #e91e63; }
-    .affiliate-button {
-      display: inline-block;
-      margin-top: 1rem;
-      padding: 0.6rem 1.2rem;
-      background: #e91e63;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-    }
-    footer { background: #f7c7d6; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
-    .ad-banner { background: #eee; padding: 1rem; text-align: center; margin: 1rem 0; border: 1px dashed #aaa; }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
     <h1>SkincareVibes</h1>
-    <p>Your daily dose of glow-up secrets</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="blog.html">Blog</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
   </header>
 
-  <nav>
-    <a href="#">Home</a>
-    <a href="#blog">Blog</a>
-    <a href="#contact">Contact</a>
-  </nav>
+  <section class="hero">
+    <h2>Glow Up Starts Here ✨</h2>
+    <p>Discover skincare tips, beauty hacks, and product reviews.</p>
+    <a href="blog.html" class="button">Read Our Blog</a>
+  </section>
 
-  <div class="container">
-    <div class="ad-banner">Ad Banner Placeholder – Paste AdSense Code Here</div>
+  <div class="ad-banner">Ad Banner Placeholder</div>
 
-    <section id="blog" class="post">
-      <h2>Top 5 Moisturizers for Glowing Skin</h2>
-      <p>Keeping your skin moisturized is the first step to a natural, glowing complexion. Here are our top 5 moisturizer picks you can start using today:</p>
-      <ol>
-        <li><strong>CeraVe Moisturizing Cream</strong> – Great for dry skin and full of ceramides.</li>
-        <li><strong>Neutrogena Hydro Boost</strong> – Lightweight gel-based formula for oily skin.</li>
-        <li><strong>The Ordinary Natural Moisturizing Factors</strong> – Simple and affordable.</li>
-        <li><strong>Glow Recipe Watermelon Pink Juice</strong> – Lightweight, smells amazing!</li>
-        <li><strong>Clinique Moisture Surge</strong> – Long-lasting hydration with a cooling effect.</li>
-      </ol>
-      <a href="#" class="affiliate-button">Buy on Amazon</a>
-
-      <div class="ad-banner">In-Article Ad Placeholder</div>
-    </section>
-
-    <section id="contact">
-      <h2>Contact Us</h2>
-      <p>Got questions or product requests? Email us at <a href="mailto:hello@skincarevibes.com">hello@skincarevibes.com</a></p>
-    </section>
-  </div>
+  <section class="featured">
+    <h3>Featured Product</h3>
+    <p>Our favorite moisturizer of the month: <strong>CeraVe Moisturizing Cream</strong></p>
+    <a href="#" class="affiliate-button">Buy Now on Amazon</a>
+  </section>
 
   <footer>
-    <p>&copy; 2025 SkincareVibes. All rights reserved.</p>
+    <p>&copy; 2025 SkincareVibes | <a href="privacy.html">Privacy Policy</a></p>
   </footer>
 </body>
 </html>
+
