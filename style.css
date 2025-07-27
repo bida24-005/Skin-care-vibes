@@ -1,0 +1,97 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff5f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ffccd5;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #d6336c;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.hero {
+  background: #ffe6ec;
+  text-align: center;
+  padding: 2rem;
+}
+
+.affiliate-button,
+.button {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background-color: #d6336c;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.affiliate-button:hover,
+.button:hover {
+  background-color: #b52852;
+}
+
+.ad-banner {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background: #eee;
+  border: 1px dashed #ccc;
+  text-align: center;
+  font-style: italic;
+  color: #666;
+}
+
+.featured {
+  background: #fff0f5;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+footer {
+  background-color: #ffccd5;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .container {
+    margin: 1rem;
+    padding: 0.5rem;
+  }
+}
